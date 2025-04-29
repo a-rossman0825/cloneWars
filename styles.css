@@ -5,3 +5,7 @@
   height: 100vh;
 }
 
+#navbar-border {
+  border: none;
+};
+
