@@ -1,0 +1,7 @@
+.hero-bg-img {
+  background-image: url('./media/hero-bg-img.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
