@@ -9,3 +9,21 @@
   border: none;
 };
 
+.feature-card {
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0, 0.5);
+}
+
+.feature-card .card-title {
+  color: #000;
+  transition: color 0.3s ease;
+}
+
+.feature-card:hover .card-title {
+  color: rgb(97, 184, 89);
+}
