@@ -27,3 +27,56 @@
 .feature-card:hover .card-title {
   color: rgb(97, 184, 89);
 }
+
+.bg-grey {
+  background-color: rgba(242, 242, 242, 0.9);
+}
+
+
+.video-wrapper {
+  aspect-ratio: 16 / 9;
+  max-height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.play-btn {
+  width: 80px;
+  height: 80px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  z-index: 2;
+  transition: background-color 0.3s ease;
+}
+
+.play-btn:hover {
+  border-radius: 50%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.quote-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('./media/bg-skyscrapers.jpg');
+  min-height: 50vh;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.footer-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./media/bg-window.jpg');
+  min-height: 50vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.price-border:hover {
+  border: 1px solid rgb(97, 184, 89);
+}
+
+@media (min-width: 1024px) {
+  .services-content {
+    flex-direction: row-reverse;
+  }
+}
